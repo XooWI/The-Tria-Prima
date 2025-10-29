@@ -1,6 +1,3 @@
----
-uid: 237a693e-5e8b-4d45-a9d0-78f292fb696b
----
 ![](misk/img/The_Tria_Prima.svg)
 # The Tria Prima | VK MAX Хакатон
 
