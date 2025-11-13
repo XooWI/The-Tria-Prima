@@ -1,6 +1,6 @@
 module github.com/XooWI/BenefitBot
 
-go 1.25.3
+go 1.25.4
 
 require github.com/max-messenger/max-bot-api-client-go v1.0.3
 

@@ -7,6 +7,6 @@ import (
 )
 
 func GetAPI() (*maxbot.Api, error) {
-	return maxbot.New(os.Getenv("MAX_BOT_TOKEN"))
+	return maxbot.New(os.Getenv("MAX_TOKEN"))
 }
 

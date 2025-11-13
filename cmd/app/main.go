@@ -25,6 +25,9 @@ func main() {
         log.Printf("Бот %s запущен и готов к работе!", botInfo.Name)
     }
 
+
+	go utils.StartHTTPServer()
+
     // Запуск обработки сообщений
     if err := utils.StartMessageProcessing(api, ctx); err != nil {
         log.Fatal("Ошибка обработки сообщений:", err)
