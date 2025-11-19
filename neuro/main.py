@@ -12,7 +12,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('benefits_bot.log', encoding='utf-8'),
+        logging.FileHandler('/tmp/benefits_bot.log', encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
